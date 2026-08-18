@@ -1,0 +1,11 @@
+{
+    "actorOutputSchemaVersion": 1,
+    "title": "Output schema of Crypto Price Tracker",
+    "properties": {
+        "results": {
+            "type": "string",
+            "title": "Coin records",
+            "template": "{{links.apiDefaultDatasetUrl}}/items"
+        }
+    }
+}

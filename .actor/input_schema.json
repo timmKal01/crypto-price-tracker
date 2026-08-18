@@ -1,0 +1,21 @@
+{
+    "title": "Crypto Price Tracker Input",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "coinIds": {
+            "title": "Coin IDs",
+            "type": "array",
+            "editor": "stringList",
+            "description": "One or more CoinGecko coin IDs (not ticker symbols), e.g. \"bitcoin\", \"ethereum\", \"solana\", \"dogecoin\". Find the exact ID on a coin's CoinGecko page URL."
+        },
+        "vsCurrency": {
+            "title": "Quote currency",
+            "type": "string",
+            "editor": "textfield",
+            "description": "The fiat or crypto currency to price against, e.g. \"usd\", \"eur\", \"btc\".",
+            "default": "usd"
+        }
+    },
+    "required": ["coinIds"]
+}
