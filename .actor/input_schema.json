@@ -7,7 +7,9 @@
             "title": "Coin IDs",
             "type": "array",
             "editor": "stringList",
-            "description": "One or more CoinGecko coin IDs (not ticker symbols), e.g. \"bitcoin\", \"ethereum\", \"solana\", \"dogecoin\". Find the exact ID on a coin's CoinGecko page URL."
+            "description": "One or more CoinGecko coin IDs (not ticker symbols), e.g. \"bitcoin\", \"ethereum\", \"solana\", \"dogecoin\". Find the exact ID on a coin's CoinGecko page URL.",
+            "prefill": ["bitcoin"],
+            "default": ["bitcoin"]
         },
         "vsCurrency": {
             "title": "Quote currency",
