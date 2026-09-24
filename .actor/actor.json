@@ -1,7 +1,7 @@
 {
     "actorSpecification": 1,
     "name": "crypto-price-tracker",
-    "title": "Crypto Price Tracker",
+    "title": "Crypto Price Lookup: Price, Market Cap & Volume",
     "description": "Look up current price, market cap, 24h/7d change, volume, supply, and all-time high/low for any cryptocurrency via the public CoinGecko API. For trading, portfolio, and market-research tools.",
     "version": "0.1",
     "meta": {
