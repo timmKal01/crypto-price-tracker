@@ -1,0 +1,83 @@
+{
+    "actorSpecification": 1,
+    "fields": {},
+    "views": {
+        "overview": {
+            "title": "Overview",
+            "transformation": {
+                "fields": [
+                    "name",
+                    "symbol",
+                    "currentPrice",
+                    "vsCurrency",
+                    "marketCap",
+                    "marketCapRank",
+                    "totalVolume",
+                    "priceChangePercentage24h",
+                    "priceChangePercentage7d",
+                    "high24h",
+                    "low24h",
+                    "allTimeHigh",
+                    "lastUpdated"
+                ]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "name": {
+                        "label": "Name",
+                        "format": "text"
+                    },
+                    "symbol": {
+                        "label": "Symbol",
+                        "format": "text"
+                    },
+                    "currentPrice": {
+                        "label": "Current price",
+                        "format": "number"
+                    },
+                    "vsCurrency": {
+                        "label": "Vs currency",
+                        "format": "text"
+                    },
+                    "marketCap": {
+                        "label": "Market cap",
+                        "format": "number"
+                    },
+                    "marketCapRank": {
+                        "label": "Market cap rank",
+                        "format": "number"
+                    },
+                    "totalVolume": {
+                        "label": "Total volume",
+                        "format": "number"
+                    },
+                    "priceChangePercentage24h": {
+                        "label": "Price change percentage24h",
+                        "format": "number"
+                    },
+                    "priceChangePercentage7d": {
+                        "label": "Price change percentage7d",
+                        "format": "number"
+                    },
+                    "high24h": {
+                        "label": "High24h",
+                        "format": "number"
+                    },
+                    "low24h": {
+                        "label": "Low24h",
+                        "format": "number"
+                    },
+                    "allTimeHigh": {
+                        "label": "All time high",
+                        "format": "number"
+                    },
+                    "lastUpdated": {
+                        "label": "Last updated",
+                        "format": "date"
+                    }
+                }
+            }
+        }
+    }
+}
