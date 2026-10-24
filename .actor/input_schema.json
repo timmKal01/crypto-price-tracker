@@ -19,5 +19,5 @@
             "default": "usd"
         }
     },
-    "required": ["coinIds"]
+    "required": []
 }
